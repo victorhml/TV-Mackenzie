@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4B438DF1CCE9A8300367EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B438DE1CCE9A8300367EE9 /* AppDelegate.swift */; };
+		D4B438E31CCE9A8300367EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B438E21CCE9A8300367EE9 /* Assets.xcassets */; };
+		D4B438EE1CCE9A8300367EE9 /* TV_MackenzieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B438ED1CCE9A8300367EE9 /* TV_MackenzieTests.swift */; };
+		D4B438F91CCE9A8300367EE9 /* TV_MackenzieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B438F81CCE9A8300367EE9 /* TV_MackenzieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B438EA1CCE9A8300367EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B438D31CCE9A8200367EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B438DA1CCE9A8200367EE9;
+			remoteInfo = "TV Mackenzie";
+		};
+		D4B438F51CCE9A8300367EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B438D31CCE9A8200367EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B438DA1CCE9A8200367EE9;
+			remoteInfo = "TV Mackenzie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4B438DB1CCE9A8200367EE9 /* TV Mackenzie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Mackenzie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B438DE1CCE9A8300367EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4B438E11CCE9A8300367EE9 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		D4B438E21CCE9A8300367EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B438E41CCE9A8300367EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B438E91CCE9A8300367EE9 /* TV MackenzieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV MackenzieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B438ED1CCE9A8300367EE9 /* TV_MackenzieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_MackenzieTests.swift; sourceTree = "<group>"; };
+		D4B438EF1CCE9A8300367EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B438F41CCE9A8300367EE9 /* TV MackenzieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV MackenzieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B438F81CCE9A8300367EE9 /* TV_MackenzieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_MackenzieUITests.swift; sourceTree = "<group>"; };
+		D4B438FA1CCE9A8300367EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B438D81CCE9A8200367EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B438E61CCE9A8300367EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B438F11CCE9A8300367EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B438D21CCE9A8200367EE9 = {
+			isa = PBXGroup;
+			children = (
+				D4B438DD1CCE9A8300367EE9 /* TV Mackenzie */,
+				D4B438EC1CCE9A8300367EE9 /* TV MackenzieTests */,
+				D4B438F71CCE9A8300367EE9 /* TV MackenzieUITests */,
+				D4B438DC1CCE9A8200367EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B438DC1CCE9A8200367EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B438DB1CCE9A8200367EE9 /* TV Mackenzie.app */,
+				D4B438E91CCE9A8300367EE9 /* TV MackenzieTests.xctest */,
+				D4B438F41CCE9A8300367EE9 /* TV MackenzieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B438DD1CCE9A8300367EE9 /* TV Mackenzie */ = {
+			isa = PBXGroup;
+			children = (
+				D4B438DE1CCE9A8300367EE9 /* AppDelegate.swift */,
+				D4B438E21CCE9A8300367EE9 /* Assets.xcassets */,
+				D4B438E41CCE9A8300367EE9 /* Info.plist */,
+				D4B438E01CCE9A8300367EE9 /* Supporting Files */,
+			);
+			path = "TV Mackenzie";
+			sourceTree = "<group>";
+		};
+		D4B438E01CCE9A8300367EE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4B438E11CCE9A8300367EE9 /* application.js */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4B438EC1CCE9A8300367EE9 /* TV MackenzieTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B438ED1CCE9A8300367EE9 /* TV_MackenzieTests.swift */,
+				D4B438EF1CCE9A8300367EE9 /* Info.plist */,
+			);
+			path = "TV MackenzieTests";
+			sourceTree = "<group>";
+		};
+		D4B438F71CCE9A8300367EE9 /* TV MackenzieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B438F81CCE9A8300367EE9 /* TV_MackenzieUITests.swift */,
+				D4B438FA1CCE9A8300367EE9 /* Info.plist */,
+			);
+			path = "TV MackenzieUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B438FD1CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV Mackenzie" */;
+			buildPhases = (
+				D4B438D71CCE9A8200367EE9 /* Sources */,
+				D4B438D81CCE9A8200367EE9 /* Frameworks */,
+				D4B438D91CCE9A8200367EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Mackenzie";
+			productName = "TV Mackenzie";
+			productReference = D4B438DB1CCE9A8200367EE9 /* TV Mackenzie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4B438E81CCE9A8300367EE9 /* TV MackenzieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B439001CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieTests" */;
+			buildPhases = (
+				D4B438E51CCE9A8300367EE9 /* Sources */,
+				D4B438E61CCE9A8300367EE9 /* Frameworks */,
+				D4B438E71CCE9A8300367EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B438EB1CCE9A8300367EE9 /* PBXTargetDependency */,
+			);
+			name = "TV MackenzieTests";
+			productName = "TV MackenzieTests";
+			productReference = D4B438E91CCE9A8300367EE9 /* TV MackenzieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4B438F31CCE9A8300367EE9 /* TV MackenzieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B439031CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieUITests" */;
+			buildPhases = (
+				D4B438F01CCE9A8300367EE9 /* Sources */,
+				D4B438F11CCE9A8300367EE9 /* Frameworks */,
+				D4B438F21CCE9A8300367EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B438F61CCE9A8300367EE9 /* PBXTargetDependency */,
+			);
+			name = "TV MackenzieUITests";
+			productName = "TV MackenzieUITests";
+			productReference = D4B438F41CCE9A8300367EE9 /* TV MackenzieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B438D31CCE9A8200367EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Victor Lisboa";
+				TargetAttributes = {
+					D4B438DA1CCE9A8200367EE9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D4B438E81CCE9A8300367EE9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D4B438DA1CCE9A8200367EE9;
+					};
+					D4B438F31CCE9A8300367EE9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D4B438DA1CCE9A8200367EE9;
+					};
+				};
+			};
+			buildConfigurationList = D4B438D61CCE9A8200367EE9 /* Build configuration list for PBXProject "TV Mackenzie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4B438D21CCE9A8200367EE9;
+			productRefGroup = D4B438DC1CCE9A8200367EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */,
+				D4B438E81CCE9A8300367EE9 /* TV MackenzieTests */,
+				D4B438F31CCE9A8300367EE9 /* TV MackenzieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B438D91CCE9A8200367EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B438E31CCE9A8300367EE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B438E71CCE9A8300367EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B438F21CCE9A8300367EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B438D71CCE9A8200367EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B438DF1CCE9A8300367EE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B438E51CCE9A8300367EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B438EE1CCE9A8300367EE9 /* TV_MackenzieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B438F01CCE9A8300367EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B438F91CCE9A8300367EE9 /* TV_MackenzieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B438EB1CCE9A8300367EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */;
+			targetProxy = D4B438EA1CCE9A8300367EE9 /* PBXContainerItemProxy */;
+		};
+		D4B438F61CCE9A8300367EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */;
+			targetProxy = D4B438F51CCE9A8300367EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4B438FB1CCE9A8300367EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		D4B438FC1CCE9A8300367EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B438FE1CCE9A8300367EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TV Mackenzie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-Mackenzie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4B438FF1CCE9A8300367EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TV Mackenzie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-Mackenzie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4B439011CCE9A8300367EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TV MackenzieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Mackenzie.app/TV Mackenzie";
+			};
+			name = Debug;
+		};
+		D4B439021CCE9A8300367EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TV MackenzieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Mackenzie.app/TV Mackenzie";
+			};
+			name = Release;
+		};
+		D4B439041CCE9A8300367EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TV MackenzieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TV Mackenzie";
+			};
+			name = Debug;
+		};
+		D4B439051CCE9A8300367EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TV MackenzieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TV Mackenzie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B438D61CCE9A8200367EE9 /* Build configuration list for PBXProject "TV Mackenzie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B438FB1CCE9A8300367EE9 /* Debug */,
+				D4B438FC1CCE9A8300367EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B438FD1CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV Mackenzie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B438FE1CCE9A8300367EE9 /* Debug */,
+				D4B438FF1CCE9A8300367EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4B439001CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B439011CCE9A8300367EE9 /* Debug */,
+				D4B439021CCE9A8300367EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4B439031CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B439041CCE9A8300367EE9 /* Debug */,
+				D4B439051CCE9A8300367EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4B438D31CCE9A8200367EE9 /* Project object */;
+}
