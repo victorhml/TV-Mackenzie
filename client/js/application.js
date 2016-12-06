@@ -11,7 +11,9 @@ App.onLaunch = function(options) {
         if (success) {
 
             resourceLoader = new ResourceLoader(options.BASEURL);
-            resourceLoader.loadResource(`${options.BASEURL}templates/ProductBundle2.xml.js`, function(resource) {
+            // resourceLoader.loadResource(`${options.BASEURL}templates/InfoTemplate.xml.js`, function(resource) {
+            // resourceLoader.loadResource(`${options.BASEURL}templates/ProductBundle2.xml.js`, function(resource) {
+            resourceLoader.loadResource(`${options.BASEURL}templates/Menu.xml.js`, function(resource) {
                 var doc = Presenter.makeDocument(resource);
                 doc.addEventListener("select", Presenter.load.bind(Presenter));
                 Presenter.pushDocument(doc);
