@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D4B438DA1CCE9A8200367EE9"
                BuildableName = "MackNews.app"
                BlueprintName = "MackNews"
-               ReferencedContainer = "container:TV Mackenzie.xcodeproj">
+               ReferencedContainer = "container:MackNews.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D4B438E81CCE9A8300367EE9"
                BuildableName = "TV MackenzieTests.xctest"
                BlueprintName = "TV MackenzieTests"
-               ReferencedContainer = "container:TV Mackenzie.xcodeproj">
+               ReferencedContainer = "container:MackNews.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "D4B438F31CCE9A8300367EE9"
                BuildableName = "TV MackenzieUITests.xctest"
                BlueprintName = "TV MackenzieUITests"
-               ReferencedContainer = "container:TV Mackenzie.xcodeproj">
+               ReferencedContainer = "container:MackNews.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "D4B438DA1CCE9A8200367EE9"
             BuildableName = "MackNews.app"
             BlueprintName = "MackNews"
-            ReferencedContainer = "container:TV Mackenzie.xcodeproj">
+            ReferencedContainer = "container:MackNews.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "D4B438DA1CCE9A8200367EE9"
             BuildableName = "MackNews.app"
             BlueprintName = "MackNews"
-            ReferencedContainer = "container:TV Mackenzie.xcodeproj">
+            ReferencedContainer = "container:MackNews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "D4B438DA1CCE9A8200367EE9"
             BuildableName = "MackNews.app"
             BlueprintName = "MackNews"
-            ReferencedContainer = "container:TV Mackenzie.xcodeproj">
+            ReferencedContainer = "container:MackNews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

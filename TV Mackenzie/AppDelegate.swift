@@ -97,7 +97,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     // MARK: TVApplicationControllerDelegate
     
     func appController(_ appController: TVApplicationController, didFinishLaunching options: [String: Any]?) {
-        print("\(#function) invoked with options: \(options)")
+        print("\(#function) invoked with options: \(String(describing: options))")
     }
     
     func appController(_ appController: TVApplicationController, didFail error: Error) {
@@ -113,7 +113,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     }
     
     func appController(_ appController: TVApplicationController, didStop options: [String: Any]?) {
-        print("\(#function) invoked with options: \(options)")
+        print("\(#function) invoked with options: \(String(describing: options))")
     }
 }
 
