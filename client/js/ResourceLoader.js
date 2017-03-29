@@ -10,7 +10,7 @@ ResourceLoader.prototype.loadResource = function(resource, callback) {
       callback.call(self, resource);
     } else {
       var title = "Resource Loader Error",
-          description = `Error loading resource '${resource}'. \n\n Try again later.`,
+          description = `Ops. Problema ao tentar abrir o recurso '${resource}'. \n\n Tente novamente mais tarde.`,
           alert = createAlert(title, description);
       navigationDocument.presentModal(alert);
     }

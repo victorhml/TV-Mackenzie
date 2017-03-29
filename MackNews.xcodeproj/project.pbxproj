@@ -9,37 +9,17 @@
 /* Begin PBXBuildFile section */
 		D4B438DF1CCE9A8300367EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B438DE1CCE9A8300367EE9 /* AppDelegate.swift */; };
 		D4B438E31CCE9A8300367EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B438E21CCE9A8300367EE9 /* Assets.xcassets */; };
-		D4B438EE1CCE9A8300367EE9 /* TV_MackenzieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B438ED1CCE9A8300367EE9 /* TV_MackenzieTests.swift */; };
-		D4B438F91CCE9A8300367EE9 /* TV_MackenzieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B438F81CCE9A8300367EE9 /* TV_MackenzieUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D4B438EA1CCE9A8300367EE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4B438D31CCE9A8200367EE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4B438DA1CCE9A8200367EE9;
-			remoteInfo = "TV Mackenzie";
-		};
-		D4B438F51CCE9A8300367EE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4B438D31CCE9A8200367EE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4B438DA1CCE9A8200367EE9;
-			remoteInfo = "TV Mackenzie";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		D4B438DB1CCE9A8200367EE9 /* TV Mackenzie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Mackenzie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925FF37B1E8C5DAF0082E433 /* client */ = {isa = PBXFileReference; lastKnownFileType = folder; path = client; sourceTree = "<group>"; };
+		D4B438DB1CCE9A8200367EE9 /* MackNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MackNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B438DE1CCE9A8300367EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4B438E11CCE9A8300367EE9 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
 		D4B438E21CCE9A8300367EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4B438E41CCE9A8300367EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4B438E91CCE9A8300367EE9 /* TV MackenzieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV MackenzieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B438ED1CCE9A8300367EE9 /* TV_MackenzieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_MackenzieTests.swift; sourceTree = "<group>"; };
 		D4B438EF1CCE9A8300367EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4B438F41CCE9A8300367EE9 /* TV MackenzieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV MackenzieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B438F81CCE9A8300367EE9 /* TV_MackenzieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_MackenzieUITests.swift; sourceTree = "<group>"; };
 		D4B438FA1CCE9A8300367EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,26 +32,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4B438E61CCE9A8300367EE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4B438F11CCE9A8300367EE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D4B438D21CCE9A8200367EE9 = {
 			isa = PBXGroup;
 			children = (
+				925FF37B1E8C5DAF0082E433 /* client */,
 				D4B438DD1CCE9A8300367EE9 /* TV Mackenzie */,
 				D4B438EC1CCE9A8300367EE9 /* TV MackenzieTests */,
 				D4B438F71CCE9A8300367EE9 /* TV MackenzieUITests */,
@@ -82,9 +49,7 @@
 		D4B438DC1CCE9A8200367EE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4B438DB1CCE9A8200367EE9 /* TV Mackenzie.app */,
-				D4B438E91CCE9A8300367EE9 /* TV MackenzieTests.xctest */,
-				D4B438F41CCE9A8300367EE9 /* TV MackenzieUITests.xctest */,
+				D4B438DB1CCE9A8200367EE9 /* MackNews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */ = {
+		D4B438DA1CCE9A8200367EE9 /* MackNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4B438FD1CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV Mackenzie" */;
+			buildConfigurationList = D4B438FD1CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "MackNews" */;
 			buildPhases = (
 				D4B438D71CCE9A8200367EE9 /* Sources */,
 				D4B438D81CCE9A8200367EE9 /* Frameworks */,
@@ -141,46 +106,10 @@
 			);
 			dependencies = (
 			);
-			name = "TV Mackenzie";
+			name = MackNews;
 			productName = "TV Mackenzie";
-			productReference = D4B438DB1CCE9A8200367EE9 /* TV Mackenzie.app */;
+			productReference = D4B438DB1CCE9A8200367EE9 /* MackNews.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D4B438E81CCE9A8300367EE9 /* TV MackenzieTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4B439001CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieTests" */;
-			buildPhases = (
-				D4B438E51CCE9A8300367EE9 /* Sources */,
-				D4B438E61CCE9A8300367EE9 /* Frameworks */,
-				D4B438E71CCE9A8300367EE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4B438EB1CCE9A8300367EE9 /* PBXTargetDependency */,
-			);
-			name = "TV MackenzieTests";
-			productName = "TV MackenzieTests";
-			productReference = D4B438E91CCE9A8300367EE9 /* TV MackenzieTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D4B438F31CCE9A8300367EE9 /* TV MackenzieUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4B439031CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieUITests" */;
-			buildPhases = (
-				D4B438F01CCE9A8300367EE9 /* Sources */,
-				D4B438F11CCE9A8300367EE9 /* Frameworks */,
-				D4B438F21CCE9A8300367EE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4B438F61CCE9A8300367EE9 /* PBXTargetDependency */,
-			);
-			name = "TV MackenzieUITests";
-			productName = "TV MackenzieUITests";
-			productReference = D4B438F41CCE9A8300367EE9 /* TV MackenzieUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,18 +123,8 @@
 				TargetAttributes = {
 					D4B438DA1CCE9A8200367EE9 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 5EAMH5GKU8;
+						DevelopmentTeam = 292X57GPEK;
 						LastSwiftMigration = 0810;
-					};
-					D4B438E81CCE9A8300367EE9 = {
-						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0810;
-						TestTargetID = D4B438DA1CCE9A8200367EE9;
-					};
-					D4B438F31CCE9A8300367EE9 = {
-						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0810;
-						TestTargetID = D4B438DA1CCE9A8200367EE9;
 					};
 				};
 			};
@@ -221,9 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */,
-				D4B438E81CCE9A8300367EE9 /* TV MackenzieTests */,
-				D4B438F31CCE9A8300367EE9 /* TV MackenzieUITests */,
+				D4B438DA1CCE9A8200367EE9 /* MackNews */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B438E31CCE9A8300367EE9 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4B438E71CCE9A8300367EE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4B438F21CCE9A8300367EE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,36 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4B438E51CCE9A8300367EE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4B438EE1CCE9A8300367EE9 /* TV_MackenzieTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4B438F01CCE9A8300367EE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4B438F91CCE9A8300367EE9 /* TV_MackenzieUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D4B438EB1CCE9A8300367EE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */;
-			targetProxy = D4B438EA1CCE9A8300367EE9 /* PBXContainerItemProxy */;
-		};
-		D4B438F61CCE9A8300367EE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4B438DA1CCE9A8200367EE9 /* TV Mackenzie */;
-			targetProxy = D4B438F51CCE9A8300367EE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D4B438FB1CCE9A8300367EE9 /* Debug */ = {
@@ -387,10 +261,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 5EAMH5GKU8;
+				DEVELOPMENT_TEAM = 292X57GPEK;
 				INFOPLIST_FILE = "TV Mackenzie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-Mackenzie";
+				PRODUCT_BUNDLE_IDENTIFIER = br.mackenzie.app.appletv.MackNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -401,62 +275,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 5EAMH5GKU8;
+				DEVELOPMENT_TEAM = 292X57GPEK;
 				INFOPLIST_FILE = "TV Mackenzie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-Mackenzie";
+				PRODUCT_BUNDLE_IDENTIFIER = br.mackenzie.app.appletv.MackNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		D4B439011CCE9A8300367EE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "TV MackenzieTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Mackenzie.app/TV Mackenzie";
-			};
-			name = Debug;
-		};
-		D4B439021CCE9A8300367EE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "TV MackenzieTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Mackenzie.app/TV Mackenzie";
-			};
-			name = Release;
-		};
-		D4B439041CCE9A8300367EE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "TV MackenzieUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "TV Mackenzie";
-			};
-			name = Debug;
-		};
-		D4B439051CCE9A8300367EE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "TV MackenzieUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "victorhml.TV-MackenzieUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "TV Mackenzie";
 			};
 			name = Release;
 		};
@@ -472,29 +296,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4B438FD1CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV Mackenzie" */ = {
+		D4B438FD1CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "MackNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4B438FE1CCE9A8300367EE9 /* Debug */,
 				D4B438FF1CCE9A8300367EE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4B439001CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4B439011CCE9A8300367EE9 /* Debug */,
-				D4B439021CCE9A8300367EE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4B439031CCE9A8300367EE9 /* Build configuration list for PBXNativeTarget "TV MackenzieUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4B439041CCE9A8300367EE9 /* Debug */,
-				D4B439051CCE9A8300367EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

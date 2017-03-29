@@ -30,21 +30,21 @@ var Template = function() {
     </background>
     <banner>
       <stack>
-        <title>Bem vindo à TV Mackenzie</title>
+        <title>Bem vindo ao MackNews</title>
         <subtitle>Programação</subtitle>
-        <description allowsZooming="true" template="${this.BASEURL}templates/AlertWithDescription.xml.js" presentation="modalDialogPresenter" class="descriptionMaxLines">Desde 1997 a TV Mackenzie segue uma programação condinzente com a filosofia educacional da Universidade Presbiteriana Mackenzie, cujas atrações contribuem para o fortalecimento da família, da academia e da sociedade. A proposta é possibilitar uma nova forma e ver e fazer a televisão, criando diversos projetos interdisciplinares com conteúdos educativos e culturais transformando o veículo em uma poderosa ferramenta de transmissão e recepção de conhecimentos. A Universidade Mackenzie tem o privilégio de oferecer aos alunos, especialmente dos cursos de publicidade e jornalismo, a possibilidade veicular seus trabalhos acadêmicos em diferentes mídias. Mais do que ter seus trabalhos exibidos, muitos alunos fazem parte de nossa equipe.</description>
+        <description allowsZooming="true" template="${this.BASEURL}templates/AlertDescription.xml.js" presentation="modalDialogPresenter" class="descriptionMaxLines">Desde 1997 a TV Mackenzie segue uma programação condinzente com a filosofia educacional da Universidade Presbiteriana Mackenzie, cujas atrações contribuem para o fortalecimento da família, da academia e da sociedade. A proposta é possibilitar uma nova forma e ver e fazer a televisão, criando diversos projetos interdisciplinares com conteúdos educativos e culturais transformando o veículo em uma poderosa ferramenta de transmissão e recepção de conhecimentos. A Universidade Mackenzie tem o privilégio de oferecer aos alunos, especialmente dos cursos de publicidade e jornalismo, a possibilidade veicular seus trabalhos acadêmicos em diferentes mídias. Mais do que ter seus trabalhos exibidos, muitos alunos fazem parte de nossa equipe.</description>
         <row>
-          <buttonLockup videoURL="http://ec2-50-19-196-117.compute-1.amazonaws.com:1935/live/smil:tvmackenzie.smil/playlist.m3u8">
+          <buttonLockup videoURL="http://ec2-54-157-173-68.compute-1.amazonaws.com:8081/live_tvmackenzie/tvmackenzie/playlist.m3u8">
             <badge src="resource://button-preview" class="whiteButton"/>
             <title>Ao Vivo</title>
           </buttonLockup>
-          <buttonLockup audioURL="http://ec2-50-19-196-117.compute-1.amazonaws.com:1935/live/radiomackenzie.sdp/playlist.m3u8">
+          <buttonLockup audioURL="http://ec2-54-157-173-68.compute-1.amazonaws.com:8081/live_radiomackenzie/radiomackenzie/playlist.m3u8">
             <badge src="resource://button-radio" class="whiteButton"/>
             <title>Rádio</title>
           </buttonLockup>
         </row>
       </stack>
-      <heroImg src="${this.BASEURL}images/macklogo.png"/>
+      <heroImg src="${this.BASEURL}images/logoMack.png"/>
     </banner>
     <shelf>
       <header>

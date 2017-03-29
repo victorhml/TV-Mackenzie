@@ -15,31 +15,13 @@ var Presenter = {
         navigationDocument.pushDocument(xml);
     },
     menuBarItemPresenter: function(xml, ele) {
-        /*
-        To get the menu bar's 'MenuBarDocument' feature, we move up the DOM Node tree using
-        the parentNode property. This allows us to access the the menuBar element from the
-        current item element.
-        */
+        
         var feature = ele.parentNode.getFeature("MenuBarDocument");
 
         if (feature) {
-            /*
-            To retrieve the document associated with the menu bar element, if one has been
-            set, you call the getDocument function the MenuBarDocument feature. The function
-            takes one argument, the item element.
-            */
+            
             var currentDoc = feature.getDocument(ele);
-            /*
-            To present a document within the menu bar, you need to associate it with the
-            menu bar item. This is accomplished by call the setDocument function on MenuBarDocument
-            feature. The function takes two argument, the document to be presented and item it
-            should be associated with.
-
-            In this implementation we are only associating a document once per menu bar item. You can
-            associate a document each time the item is selected, or you can associate documents with
-            all the menu bar items before the menu bar is presented. You will need to experimet here
-            to balance document presentation times with updating the document items.
-            */
+            
             if (!currentDoc) {
                 feature.setDocument(xml, ele);
             }
